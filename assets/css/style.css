@@ -108,7 +108,7 @@ p{
     color: black;
     margin-top: 2%;
 }
-#cartas{
+#cartas,#cartas1{
     display: flex;
     flex-wrap: wrap;
     margin-top: 1%;
@@ -117,7 +117,7 @@ p{
     margin-right: 3%;
     justify-content: space-between;
 }
-#cartas p{
+#cartas p, #cartas1 p{
     font-size: 100%;
     flex-wrap: wrap;
     text-align: left;
@@ -126,9 +126,12 @@ p{
     margin-left: 3%;
     margin-right: 3%;
 }
-#cartas img{
-  margin-bottom: 0% !important;
+#cartas1 img{
   height: 240px !important;
+}
+#cartas img, #cartas1 img{
+  margin-bottom: 0% !important;
+ 
   
 }
 
